@@ -2,15 +2,9 @@
 
 [FingerprintJS](https://github.com/Valve/fingerprintjs2) wrapper for Dart
 
-## Installation
-In your dart project add the dependency:
+## Getting Started
 
 [![pub package](https://img.shields.io/pub/v/fingerprintjs.svg)](https://pub.dartlang.org/packages/fingerprintjs)
-
-```yaml
-dependencies:
-  fingerprintjs: ^0.0.1
-```
 
 Add script in index.html before importing main.dart.js:
 ```html
