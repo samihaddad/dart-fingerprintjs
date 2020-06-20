@@ -1,7 +1,12 @@
 name: fingerprintjs
 version: 0.0.2
 description: Fingerprintjs wrapper for Dart
+author: samihaddad <admin@samihaddad.dev>
 homepage: https://samihaddad.dev
+repository: https://github.com/samihaddad/dart-fingerprintjs
+issue_tracker: https://github.com/samihaddad/dart-fingerprintjs/issues
+
+
 environment:
   sdk: '>=2.0.0 <3.0.0'
 
