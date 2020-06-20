@@ -1,1 +1,5 @@
-Example for using fingerprintjs
+```
+void main() async {
+  String = await Fingerprint.getHash();
+}
+```

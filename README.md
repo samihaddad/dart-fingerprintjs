@@ -15,7 +15,6 @@ dependencies:
 Add script in index.html before importing main.dart.js:
 ```html
 <script src="//cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/2.1.0/fingerprint2.min.js"></script>
-</script>
 ```
 
 
