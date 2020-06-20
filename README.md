@@ -9,7 +9,7 @@ In your dart project add the dependency:
 
 ```yaml
 dependencies:
-  fingerprintjs: ^0.0.1
+  fingerprintjs: ^0.0.2
 ```
 
 Add script in index.html before importing main.dart.js:
