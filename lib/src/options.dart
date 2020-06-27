@@ -33,8 +33,6 @@ class AudioOptions {
   external factory AudioOptions({num timeout, bool excludeIOS11});
 }
 
-
-
 @JS()
 @anonymous
 class PluginOptions {
@@ -53,8 +51,6 @@ class Options {
   external ScreenOptions get screen;
   external PluginOptions get plugin;
   external List get extraComponents;
-
-
 
   external factory Options({
     Function preprocessor,
