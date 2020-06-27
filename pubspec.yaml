@@ -1,6 +1,6 @@
 name: fingerprintjs
 version: 0.0.3
-description: Fingerprintjs wrapper for Dart
+description: Fingerprintjs wrapper for Dart - A modern & flexible browser fingerprinting library
 homepage: https://samihaddad.dev
 repository: https://github.com/samihaddad/dart-fingerprintjs
 issue_tracker: https://github.com/samihaddad/dart-fingerprintjs/issues
