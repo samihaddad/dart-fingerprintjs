@@ -1,5 +1,5 @@
 .DS_Store
-.dart_tool/
+.dart_tool
 .packages
-.pub/
+.pub
 pubspec.lock
