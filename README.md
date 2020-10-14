@@ -14,7 +14,7 @@ Add script in index.html before importing main.dart.js:
 
 ## Usage
 ```dart
-import 'package:fingerprintjs/fingerprint.dart';
+import 'package:fingerprintjs/fingerprintjs.dart';
 
 String fingerprint = await Fingerprint.getHash();
 
