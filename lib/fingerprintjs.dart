@@ -2,6 +2,7 @@
 library fingerprintjs;
 
 import 'dart:async';
+
 import 'package:js/js.dart';
 
 part 'src/options.dart';
@@ -14,6 +15,7 @@ class _Fingerprint {
 
 /// Stores the key/value pair of fingerprint properties
 @JS()
+@anonymous
 class FingerprintComponent {
   /// The key for a fingerprint property
   external String get key;
