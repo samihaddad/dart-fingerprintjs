@@ -45,7 +45,8 @@ class Fingerprint {
 
   /// Create a fingerprint hash from the properties extracted
   static Future<String> getHash() async {
-    var values = await Fingerprint.get();
+    var components = await Fingerprint.get();
+    var values = components.map((component) => component.value);
     return Fingerprint.x64hash128(values.join(''), 31);
   }
 }
