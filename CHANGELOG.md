@@ -1,3 +1,7 @@
+## 1.0.4
+
+- Update example
+
 ## 1.0.3
 
 - Fix `getHash` giving the same fingerprint across different browsers
