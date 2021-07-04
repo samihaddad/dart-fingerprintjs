@@ -11,10 +11,10 @@ class FontOptions {
   external bool get extendedJsFonts;
 
   external factory FontOptions({
-    String swfContainerId,
-    String swfPath,
-    List<String> userDefinedFonts,
-    bool extendedJsFonts,
+    String? swfContainerId,
+    String? swfPath,
+    List<String>? userDefinedFonts,
+    bool? extendedJsFonts,
   });
 }
 
@@ -23,7 +23,7 @@ class FontOptions {
 class ScreenOptions {
   external bool get detectScreenOrientation;
 
-  external factory ScreenOptions({bool detectScreenOrientation});
+  external factory ScreenOptions({bool? detectScreenOrientation});
 }
 
 @JS()
@@ -32,7 +32,7 @@ class AudioOptions {
   external num get timeout;
   external bool get excludeIOS11;
 
-  external factory AudioOptions({num timeout, bool excludeIOS11});
+  external factory AudioOptions({num? timeout, bool? excludeIOS11});
 }
 
 @JS()
@@ -41,7 +41,7 @@ class PluginOptions {
   external List get sortPluginsFor;
   external bool get excludeIE;
 
-  external factory PluginOptions({List sortPluginsFor, bool excludeIE});
+  external factory PluginOptions({List? sortPluginsFor, bool? excludeIE});
 }
 
 @JS()
@@ -55,11 +55,11 @@ class Options {
   external List get extraComponents;
 
   external factory Options({
-    Function preprocessor,
-    AudioOptions audio,
-    FontOptions fonts,
-    ScreenOptions screen,
-    PluginOptions plugins,
-    List extraComponents,
+    Function? preprocessor,
+    AudioOptions? audio,
+    FontOptions? fonts,
+    ScreenOptions? screen,
+    PluginOptions? plugins,
+    List? extraComponents,
   });
 }

@@ -9,7 +9,7 @@ part 'src/options.dart';
 
 @JS('Fingerprint2')
 class _Fingerprint {
-  external static dynamic get(Options options, Function action);
+  external static dynamic get(Options? options, Function action);
   external static String x64hash128(String values, int seed);
 }
 
@@ -28,7 +28,7 @@ class FingerprintComponent {
 class Fingerprint {
   /// Returns an array of `FingerprintComponent` which contains
   /// all the components extracted from the browser
-  static Future<List<FingerprintComponent>> get({Options options}) {
+  static Future<List<FingerprintComponent>> get({Options? options}) {
     final completer = Completer<List<FingerprintComponent>>();
     Timer(Duration(milliseconds: 500), () {
       _Fingerprint.get(options, allowInterop((components) {
