@@ -1,3 +1,7 @@
+## 2.0.0
+
+- Add null safety support
+
 ## 1.0.4
 
 - Update example
