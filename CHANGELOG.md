@@ -1,3 +1,7 @@
+## 3.0.0
+
+- Upgrade to Dart 3
+
 ## 2.0.0
 
 - Add null safety support
